@@ -44,8 +44,12 @@
             </array>
         </config-file>
         
-        
-        
+        <config-file target="*-Info.plist">
+            <array>
+                <dict>
+                    <key>ITSAppUsesNonExemptEncryption</key><false/>
+                </dict>
+            </array>
+        </config-file>
     </platform>
-    
 </plugin>
